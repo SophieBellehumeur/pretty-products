@@ -1,58 +1,60 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: 'Karma', serif;
+  font-family: Karma, serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+.crystal {
+  width: 70%;
+  margin-left: 3.2rem;
+}
+
 main ol {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  gap: 1rem;
   margin: 0;
   padding: 0;
 }
 
 ol > li {
   background-color: #fff;
-  padding: 1rem;
+  padding: 1.25rem;
   border: 3px solid #987ffa;
   border-radius: 6px;
   list-style-type: none;
+  margin: 0;
 }
 
-main h1 {
-  font-family: "Oswald", sans-serif;
+main h2 {
+  font-family: Oswald, sans-serif;
   font-weight: bold;
   font-size: 2rem;
   color: #6f00e7;
-  margin: 0;
   text-align: center;
+  margin: .25rem;
 }
 
-main {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-}
-
-ul{
+ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
   align-items: center;
   padding-left: 0;
-  display: flex;
-  align-items: center;
+}
+
+ul > li {
+  margin: .25rem;
 }
 
 .cart {
   background-color: #6f00e7;
   color: white;
-  font-family: "Oswald", sans-serif;
+  font-family: Oswald, sans-serif;
   margin: 0 auto 0 0;
   padding: .5em 1.5em .7em;
   border-radius: 3em;
@@ -61,7 +63,7 @@ ul{
 span {
   color: white;
   text-decoration: none;
-  font-family: "Oswald", sans-serif;
+  font-family: Oswald, sans-serif;
 }
 
 a {
@@ -72,4 +74,7 @@ a {
 
 p {
   text-align: center;
+  font-size: 1.4rem;
+  margin: .25rem;
+  padding-bottom: 1.5rem;
 }
